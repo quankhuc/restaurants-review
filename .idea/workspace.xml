@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c7450bb-5d90-493b-8831-72bdf1aedb57" name="Changes" comment="" />
+    <list default="true" id="1c7450bb-5d90-493b-8831-72bdf1aedb57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/api/user.control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/dao/usersDAO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavigationBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/route/Logout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/route/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/route/add-reviews.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/route/restaurantPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/restaurants.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/restaurants.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/restaurant-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/restaurant-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/restaurant.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/restaurant.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/route/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/route/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/http-common.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/http-common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/restaurant.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/restaurant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +55,26 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/NavigationBar.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/route/Logout.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/route/Register.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/dao/usersDAO.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/services/login.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/route/Home.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/restaurant-list.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/restaurant.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/add-reviews.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/api/restaurants.route.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/api/restaurants.control.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/dao/restaurantsDAO.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/services/restaurant.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/api/reviews.control.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/route/Login.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/dao/reviewsDAO.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/src/components/route/restaurantPage.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/server.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/api/user.control.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frontend/src/App.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21NWMKY10bJ5yB3Y2WvzJZjE2kW" />
@@ -40,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/restaurant-reviews-master/restaurant-reviews-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +110,9 @@
       <workItem from="1638347911190" duration="57000" />
       <workItem from="1638347982772" duration="97000" />
       <workItem from="1638378543255" duration="19000" />
-      <workItem from="1638379305624" duration="650000" />
+      <workItem from="1638379305624" duration="2847000" />
+      <workItem from="1638393354827" duration="11806000" />
+      <workItem from="1638464784661" duration="42336000" />
     </task>
     <servers />
   </component>
