@@ -2,8 +2,9 @@ import React, {useState, useEffect, useContext} from "react";
 import RestaurantDataService from "../../services/restaurant.js";
 import {Link, useParams} from "react-router-dom";
 import UserContext from "../../context/UserContext";
+import NavigationBar from "../NavigationBar.jsx";
 
-const Restaurant = () => {
+const Restaurant = (props) => {
     // have the restaurant id so that it can display the right restaurant
     const initialRestaurantState = {
         id: null,
@@ -14,7 +15,7 @@ const Restaurant = () => {
     };
 
     const [restaurant, setRestaurant] = useState(initialRestaurantState);
-    const { user} = useContext(UserContext);
+    const { currentUser } = useContext(UserContext);
     const { id } = useParams();
 
     const getRestaurant = (id) => {
@@ -30,7 +31,7 @@ const Restaurant = () => {
     useEffect(() => {getRestaurant(id);}, [id]);
 
     const deleteReview = (reviewId, index) => {
-        RestaurantDataService.deleteReview(reviewId, user.id)
+        RestaurantDataService.deleteReview(reviewId, currentUser.user_id)
             .then(() => {
                 setRestaurant((prevState => {prevState.reviews.splice(index, 1); return {...prevState}}));
             })
@@ -41,6 +42,7 @@ const Restaurant = () => {
 
     return (
         <div>
+            <NavigationBar history={props.history}/>
             {restaurant ? (
                 <div>
                     <h5>{restaurant.name}</h5>
@@ -57,6 +59,8 @@ const Restaurant = () => {
                     <div className="row">
                         {restaurant.reviews.length > 0 ? (
                             restaurant.reviews.map((review, index) => {
+                                console.log(review);
+                                console.log(currentUser);
                                 return (
                                     <div className="col-lg-4 pb-1" key={index}>
                                         <div className="card">
@@ -66,7 +70,7 @@ const Restaurant = () => {
                                                     <strong>User: </strong>{review.name}<br/>
                                                     <strong>Date: </strong>{review.date}
                                                 </p>
-                                                {user && user.id === review.user_id &&
+                                                {currentUser && currentUser.user_id === review.user_id &&
                                                 <div className="row">
                                                     <a onClick={() => deleteReview(review._id, index)} className="btn btn-primary col-lg-5 mx-1 mb-1">Delete</a>
                                                     <Link to={{

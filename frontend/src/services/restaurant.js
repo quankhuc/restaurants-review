@@ -9,14 +9,14 @@ class RestaurantDataService{
         return http.get(`/id/${id}`);
     }
     // make a find function for the search
-    find(query, by = 'name', page = 0){
+    find(query, by = 'name', page){
         return http.get(`?${by}=${query}&page=${page}`);
     }
     createReview(data){
         return http.post("/review", data);
     }
     updateReview(data){
-        return http.put("/review-edit", data);
+        return http.put("/review", data);
     }
     deleteReview(id, userId){
         return http.delete(`/review?id=${id}`, {data:{user_id: userId}});

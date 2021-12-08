@@ -3,6 +3,7 @@ import UserService from '../../services/login.js';
 import UserContext from '../../context/UserContext';
 
 
+
 function Login(props) {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -17,8 +18,8 @@ function Login(props) {
             const res = await UserService.login(data);
             // set current user
             // set everything in local storage. In the future, I need to encode the info stored in the local storage
-            localStorage.setItem('authtoken', res.data);
-            if (res.data.user_id && res.data.status === 'success') {
+            localStorage.setItem('user', JSON.stringify(res.data));
+            if (res.data.message === 'success') {
                 //callback to App.js
                 setCurrentUser({data: {
                     user_id: res.data.user_id,
@@ -82,13 +83,10 @@ function Login(props) {
               Login
             </button>
             <br /> <br />
-            {/* <a href="/forget">Forgot password?</a>
-            <br/> */}
             New user? Sign Up{" "}
             <a href="/register" id="here_btn">
               Here
             </a>
-            {/* </p> */}
             <br />
           </div>
         </div>

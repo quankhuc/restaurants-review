@@ -1,16 +1,12 @@
-import { useState, useContext } from "react";
 import UserService from "../../services/login";
-import jwtDecode from "jwt-decode";
-import UserContext from "../../context/UserContext";
 import {useRef} from "react";
 
-function Register(){
+function Register(props){
    const username_ref = useRef();
    const password_ref = useRef();
    const email_ref = useRef();
    const first_name_ref = useRef();
    const last_name_ref = useRef();
-    const {setUser} = useContext(UserContext);
 
     const handleSubmit = (e) =>{
         e.preventDefault();
@@ -30,10 +26,10 @@ function Register(){
             .then(res => {
                 let temp = res.data;
                 console.log(temp);
+                props.history.push("/login");
         })
 
     }
-
 
     return(
         <div className="register-box">
