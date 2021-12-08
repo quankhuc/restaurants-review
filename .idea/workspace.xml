@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c7450bb-5d90-493b-8831-72bdf1aedb57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/route/AddRestaurants.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/NavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NavigationBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/add-reviews.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/restaurant-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/restaurant.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/route/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/route/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/Logout.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/route/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/add-reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/route/add-reviews.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/route/restaurantPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/route/restaurantPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/services/restaurant.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/restaurant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="1c7450bb-5d90-493b-8831-72bdf1aedb57" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +86,7 @@
       <workItem from="1638464784661" duration="42336000" />
       <workItem from="1638841148432" duration="22000" />
       <workItem from="1638841191305" duration="15019000" />
-      <workItem from="1638859002554" duration="21947000" />
+      <workItem from="1638859002554" duration="22223000" />
     </task>
     <servers />
   </component>
